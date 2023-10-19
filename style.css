@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@700&family=Montserrat:wght@400;600&family=Open+Sans:wght@500;600&family=Orbitron:wght@500&family=Poppins&family=Roboto&family=Roboto+Condensed&family=Roboto+Serif:opsz@8..144&display=swap');
+body{
+    text-align: center;
+    font-family: sans-serif;
+    min-height: 100vh;
+    color: #252525;
+    background: #fcfcfc;
+    font-weight: 300;
+    display: grid;
+    justify-content: center;
+    padding: 3em 0;
+    background: url('https://i.ytimg.com/vi/A6vlG4B9dGM/maxresdefault.jpg');
+    background-position: center;
+    transition: 3s ease;
+}
+h1{
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+form input{
+    border-radius: 15%;
+}
+.main-scoreboard-container{
+    width: 100%;
+}
+.main-scoreboard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13rem;
+    padding: 20px;
+    margin: 10px;
+    text-transform: uppercase;
+    background-color: rgb(135, 151, 222);
+    font-size: 14px;
+    box-shadow: 5px 5px rgb(4, 10, 90);
+}
+form input{
+    padding: 10px;
+    border: 2px solid rgb(13, 27, 155);
+}
+form button{
+    background-color: rgb(13, 6, 105);
+    padding: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 10%;
+    border: 2px solid rgb(17, 39, 231);
+    
+}
+.main_scoreboard-btn-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.main-scoreboard button{
+    background-color: rgb(13, 20, 121);
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    width: 35px;
+}
